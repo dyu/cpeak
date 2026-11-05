@@ -60,7 +60,7 @@ mimalloc = ["dep:mimalloc"]
 preserve_order = ["serde_json/preserve_order"]
 
 [dev-dependencies]
-tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.47.5", features = ["macros", "rt-multi-thread"] }
 serde = { version = "1", features = ["derive"] }
 # The HTTPS tests need a client that speaks TLS
 rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"] }
